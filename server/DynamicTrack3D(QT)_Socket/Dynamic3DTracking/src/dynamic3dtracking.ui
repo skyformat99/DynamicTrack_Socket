@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dynamic3DTrackingClass</class>
+ <widget class="QMainWindow" name="Dynamic3DTrackingClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1972</width>
+    <height>1180</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>10</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Dynamic3DTracking</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>10</verstretch>
+    </sizepolicy>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_12"/>
+    </item>
+    <item row="0" column="1">
+     <layout class="QVBoxLayout" name="verticalLayout_13">
+      <item>
+       <widget class="QGroupBox" name="groupBoxUp">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="toolTipDuration">
+         <number>-1</number>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_4">
+         <item row="0" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <spacer name="horizontalSpacer">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout">
+             <item>
+              <widget class="QPushButton" name="btnSavePath">
+               <property name="text">
+                <string>保存</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../dynamic3dtracking.qrc">
+                 <normaloff>:/保存/Resources/Save_48px_1179933_easyicon.net.png</normaloff>:/保存/Resources/Save_48px_1179933_easyicon.net.png</iconset>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btnOpenCams">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+               <property name="text">
+                <string>OpenCams</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../dynamic3dtracking.qrc">
+                 <normaloff>:/打开相机/Resources/sonyericsson_camera_photo_48px_1135473_easyicon.net.png</normaloff>:/打开相机/Resources/sonyericsson_camera_photo_48px_1135473_easyicon.net.png</iconset>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <item>
+              <widget class="QRadioButton" name="radioBtnL">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
+               <property name="text">
+                <string>LCam</string>
+               </property>
+               <property name="checked">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="radioBtnR">
+               <property name="text">
+                <string>RCam</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+             <item>
+              <widget class="QLineEdit" name="lineEditExpoTime">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                 <horstretch>2</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>200</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btnSetExpTime">
+               <property name="text">
+                <string>设置曝光时间</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../dynamic3dtracking.qrc">
+                 <normaloff>:/设置曝光时间/Resources/exposure_48px_1176623_easyicon.net.png</normaloff>:/设置曝光时间/Resources/exposure_48px_1176623_easyicon.net.png</iconset>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item>
+              <widget class="QPushButton" name="btnSingleCamCapture">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+               <property name="text">
+                <string>单相机拍照</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../dynamic3dtracking.qrc">
+                 <normaloff>:/单相机拍摄/Resources/com_motorola_camera_48px_1107083_easyicon.net.png</normaloff>:/单相机拍摄/Resources/com_motorola_camera_48px_1107083_easyicon.net.png</iconset>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btnTwoCamsCapture">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+               <property name="text">
+                <string>同时拍照</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../dynamic3dtracking.qrc">
+                 <normaloff>:/双相机拍摄/Resources/binocular_Telescope_48px_558106_easyicon.net.png</normaloff>:/双相机拍摄/Resources/binocular_Telescope_48px_558106_easyicon.net.png</iconset>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_8">
+             <item>
+              <widget class="QLineEdit" name="lineEditPicNum">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                 <horstretch>2</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>100</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>200</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btnSetPicNum">
+               <property name="text">
+                <string>设置拍摄张数</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../dynamic3dtracking.qrc">
+                 <normaloff>:/设置图片张数/Resources/设置图片张数.png</normaloff>:/设置图片张数/Resources/设置图片张数.png</iconset>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_10">
+             <item>
+              <widget class="QPushButton" name="externalTrigButton">
+               <property name="text">
+                <string>外触发</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../dynamic3dtracking.qrc">
+                 <normaloff>:/外触发/Resources/portal_trigger_48px_1066495_easyicon.net.png</normaloff>:/外触发/Resources/portal_trigger_48px_1066495_easyicon.net.png</iconset>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btnDynamicTracking">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
+               <property name="text">
+                <string>动态跟踪</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../dynamic3dtracking.qrc">
+                 <normaloff>:/动态跟踪/Resources/Short_Track_48px_1134850_easyicon.net.png</normaloff>:/动态跟踪/Resources/Short_Track_48px_1134850_easyicon.net.png</iconset>
+               </property>
+               <property name="checkable">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_9">
+             <item>
+              <widget class="QPushButton" name="BtnDeformation">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+               <property name="text">
+                <string>显示变形</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../dynamic3dtracking.qrc">
+                 <normaloff>:/显示变形/Resources/software_font_size_47.81954887218px_1183001_easyicon.net.png</normaloff>:/显示变形/Resources/software_font_size_47.81954887218px_1183001_easyicon.net.png</iconset>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btnXGraph">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+               <property name="text">
+                <string>位移图</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../dynamic3dtracking.qrc">
+                 <normaloff>:/位移图/Resources/diagram_48px_1200321_easyicon.net.png</normaloff>:/位移图/Resources/diagram_48px_1200321_easyicon.net.png</iconset>
+               </property>
+               <property name="checkable">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_11">
+             <item>
+              <widget class="QPushButton" name="btnCloseCams">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+               <property name="text">
+                <string>关闭相机</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../dynamic3dtracking.qrc">
+                 <normaloff>:/关闭相机/Resources/camera_close_48px_1110923_easyicon.net.png</normaloff>:/关闭相机/Resources/camera_close_48px_1110923_easyicon.net.png</iconset>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btnExit">
+               <property name="text">
+                <string>退出</string>
+               </property>
+               <property name="icon">
+                <iconset resource="../dynamic3dtracking.qrc">
+                 <normaloff>:/退出/Resources/sign_out_exit_24px_515890_easyicon.net.png</normaloff>:/退出/Resources/sign_out_exit_24px_515890_easyicon.net.png</iconset>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QGroupBox" name="groupBoxL">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>12</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+          <layout class="QGridLayout" name="gridLayout">
+           <item row="0" column="0">
+            <widget class="QLabel" name="labelLeftCam">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>900</width>
+               <height>900</height>
+              </size>
+             </property>
+             <property name="mouseTracking">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>左相机显示</string>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBoxR">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>12</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="0" column="0">
+            <widget class="QLabel" name="labelRightCam">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>900</width>
+               <height>900</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>右相机显示</string>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1972</width>
+     <height>34</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../dynamic3dtracking.qrc"/>
+ </resources>
+ <connections/>
+</ui>

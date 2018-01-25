@@ -1,0 +1,29 @@
+<UI version="4.0" >
+ <class>Draggableaxes_SocketClass</class>
+ <widget class="QMainWindow" name="Draggableaxes_SocketClass" >
+  <property name="objectName" >
+   <string notr="true">Draggableaxes_SocketClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>600</width>
+	<height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Draggableaxes_Socket</string>
+  </property>
+  <widget class="QMenuBar" name="menuBar" />
+  <widget class="QToolBar" name="mainToolBar" />
+  <widget class="QWidget" name="centralWidget" />
+  <widget class="QStatusBar" name="statusBar" />
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="draggableaxes_socket.qrc"/>
+ </resources>
+ <connections/>
+</UI>

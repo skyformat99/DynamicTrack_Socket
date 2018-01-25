@@ -1,0 +1,41 @@
+<RCC>
+  <qresource prefix="保存">
+    <file>Resources/Save_48px_1179933_easyicon.net.png</file>
+  </qresource>
+  <qresource prefix="设置图片张数">
+    <file>Resources/设置图片张数.png</file>
+  </qresource>
+  <qresource prefix="显示变形">
+    <file>Resources/software_font_size_47.81954887218px_1183001_easyicon.net.png</file>
+  </qresource>
+  <qresource prefix="编码点个数">
+    <file>Resources/points_158.26086956522px_1186057_easyicon.net.png</file>
+  </qresource>
+  <qresource prefix="动态跟踪">
+    <file>Resources/Short_Track_48px_1134850_easyicon.net.png</file>
+  </qresource>
+  <qresource prefix="关闭相机">
+    <file>Resources/camera_close_48px_1110923_easyicon.net.png</file>
+  </qresource>
+  <qresource prefix="退出">
+    <file>Resources/sign_out_exit_24px_515890_easyicon.net.png</file>
+  </qresource>
+  <qresource prefix="位移图">
+    <file>Resources/diagram_48px_1200321_easyicon.net.png</file>
+  </qresource>
+  <qresource prefix="外触发">
+    <file>Resources/portal_trigger_48px_1066495_easyicon.net.png</file>
+  </qresource>
+  <qresource prefix="双相机拍摄">
+    <file>Resources/binocular_Telescope_48px_558106_easyicon.net.png</file>
+  </qresource>
+  <qresource prefix="单相机拍摄">
+    <file>Resources/com_motorola_camera_48px_1107083_easyicon.net.png</file>
+  </qresource>
+  <qresource prefix="设置曝光时间">
+    <file>Resources/exposure_48px_1176623_easyicon.net.png</file>
+  </qresource>
+  <qresource prefix="打开相机">
+    <file>Resources/sonyericsson_camera_photo_48px_1135473_easyicon.net.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,45 @@
+﻿生成启动时间为 2018/1/24 16:05:17。
+     1>项目“E:\ProjectFiles\BAK\DynamicTrack3D(QT)_Socket_Bak(send data.txt)\Dynamic3DTracking\Dynamic3DTracking.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_CamCapThread.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_CamCapThread.cpp, GeneratedFiles\Release\moc_CamCapThread.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_dynamic3dtracking.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_dynamic3dtracking.cpp, GeneratedFiles\Release\moc_dynamic3dtracking.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_dynamictrackdlg.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_dynamictrackdlg.cpp, GeneratedFiles\Release\moc_dynamictrackdlg.cpp.
+     1>ClCompile:
+         C:\ProGrammeFiles\VS2013\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.7.1\5.7\msvc2013_64\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.7.1\5.7\msvc2013_64\include\QtCore /IC:\Qt\Qt5.7.1\5.7\msvc2013_64\include\QtGui /IC:\Qt\Qt5.7.1\5.7\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt src\dynamictrackdlg.cpp
+         dynamictrackdlg.cpp
+     1>e:\projectfiles\bak\dynamictrack3d(qt)_socket_bak(send data.txt)\dynamic3dtracking\src\GBK.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\ProGrammeFiles\OpenCV3.1.0\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\ProGrammeFiles\OpenCV3.1.0\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\ProGrammeFiles\OpenCV3.1.0\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\projectfiles\bak\dynamictrack3d(qt)_socket_bak(send data.txt)\dynamic3dtracking\src\XMLReader.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\ProGrammeFiles\FlyCapture2.9\include\FlyCapture2.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\programmefiles\flycapture2.9\include\FlyCapture2Defs.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\programmefiles\flycapture2.9\include\CameraBase.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\programmefiles\flycapture2.9\include\GigECamera.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\programmefiles\flycapture2.9\include\Utilities.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       Link:
+         C:\ProGrammeFiles\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\ProjectFiles\BAK\DynamicTrack3D(QT)_Socket_Bak(send data.txt)\x64\Release\\DeformationMeasure.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.7.1\5.7\msvc2013_64\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib opencv_world310.lib FlyCapture2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:\ProjectFiles\BAK\DynamicTrack3D(QT)_Socket_Bak(send data.txt)\x64\Release\DeformationMeasure.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\ProjectFiles\BAK\DynamicTrack3D(QT)_Socket_Bak(send data.txt)\x64\Release\DeformationMeasure.lib" /MACHINE:X64 x64\Release\qrc_dynamic3dtracking.obj
+         x64\Release\moc_CamCapThread.obj
+         x64\Release\moc_dynamic3dtracking.obj
+         x64\Release\moc_dynamictrackdlg.obj
+         x64\Release\CamCapThread.obj
+         x64\Release\ClpMeasurement.obj
+         x64\Release\Condensation.obj
+         x64\Release\CoreAlgorithm.obj
+         x64\Release\dynamic3dtracking.obj
+         x64\Release\dynamictrackdlg.obj
+         x64\Release\main.obj
+         x64\Release\pcamera.obj
+         x64\Release\stdafx.obj
+         x64\Release\winSocketClient.obj
+         x64\Release\XMLReader.obj
+         x64\Release\XMLWriter.obj
+         x64\Release\tinystr.obj
+         x64\Release\tinyxml.obj
+         x64\Release\tinyxmlerror.obj
+         x64\Release\tinyxmlparser.obj
+         Dynamic3DTracking.vcxproj -> E:\ProjectFiles\BAK\DynamicTrack3D(QT)_Socket_Bak(send data.txt)\x64\Release\DeformationMeasure.exe
+     1>已完成生成项目“E:\ProjectFiles\BAK\DynamicTrack3D(QT)_Socket_Bak(send data.txt)\Dynamic3DTracking\Dynamic3DTracking.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.85
